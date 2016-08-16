@@ -41,7 +41,9 @@ module.exports = function(config) {
         plugins: [
             'karma-phantomjs-launcher',
             'karma-mocha',
-            'karma-junit-reporter'
+            'karma-junit-reporter',
+            'karma-coverage',
+            'karma-sinon-chai'
         ],
 
         // test results reporter to use
