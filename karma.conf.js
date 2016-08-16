@@ -38,7 +38,13 @@ module.exports = function(config) {
             dir: 'coverage/'
         },
 
-
+        plugins          : [
+            'karma-mocha',
+            'karma-phantomjs-launcher',
+            'karma-junit-reporter',
+            'karma-coverage',
+            'karma-jenkins-reporter'
+        ],
         // test results reporter to use
         // possible values: 'dots', 'progress'
         // available reporters: https://npmjs.org/browse/keyword/karma-reporter
