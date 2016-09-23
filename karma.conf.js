@@ -36,7 +36,7 @@ module.exports = function(config) {
             // type : 'html',
             //type: 'text-summary',
             type: 'cobertura',
-            dir: 'coverage/',
+            dir: 'coverage',
             file: 'coverage_report.xml'
         },
 
