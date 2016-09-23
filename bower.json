@@ -26,14 +26,12 @@
     "log4javascript": "^1.4.9",
     "underscore": "^1.8.3",
     "angular-local-storage": "^0.2.7",
-    "angular-mocks": "^1.5.6",
     "karma-read-json": "^1.1.0"
-  },
-  "resolutions": {
-    //"angular": "1.4.8",
-    "slick-carousel": "~1.5.9"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.20"
+  },
+  "resolutions": {
+    "slick-carousel": "~1.5.9"
   }
 }
