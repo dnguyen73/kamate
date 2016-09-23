@@ -37,7 +37,7 @@ describe('saving a document', function() {
       });
 
       it('should be set to true again', function() {
-        expect(scope.state.documentSaved).to.equal(true);
+        expect(scope.state.documentSaved).to.equal(false);
       });
 
       afterEach(function() {
