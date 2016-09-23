@@ -30,7 +30,7 @@
     "karma-read-json": "^1.1.0"
   },
   "resolutions": {
-    "angular": "1.4.8",
+    //"angular": "1.4.8",
     "slick-carousel": "~1.5.9"
   },
   "devDependencies": {
