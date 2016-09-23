@@ -34,8 +34,10 @@ module.exports = function(config) {
 
         coverageReporter: {
             // type : 'html',
-            type: 'text-summary',
-            dir: 'coverage/'
+            //type: 'text-summary',
+            type: 'cobertura',
+            dir: 'coverage/',
+            file: 'coverage_report.xml'
         },
 
         plugins: [
