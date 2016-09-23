@@ -13,7 +13,25 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.20"
+    "slick-carousel": "~1.5.9",
+    "angular": "~1.4.8",
+    "ngCordova": "~0.1.23-alpha",
+    "angular-resource": "~1.4.8",
+    "ionic": "~1.2.1",
+    "angular-dynamic-locale": "~0.1.30",
+    "angular-translate": "~2.11.0",
+    "angular-translate-loader-url": "~2.11.0",
+    "angular-translate-loader-static-files": "~2.11.0",
+    "angular-slick-carousel": "~3.1.4",
+    "log4javascript": "^1.4.9",
+    "underscore": "^1.8.3",
+    "angular-local-storage": "^0.2.7",
+    "angular-mocks": "^1.5.6",
+    "karma-read-json": "^1.1.0"
+  },
+  "resolutions": {
+    "angular": "1.4.8",
+    "slick-carousel": "~1.5.9"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.20"
